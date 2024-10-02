@@ -36,7 +36,7 @@ export const PRODUCTS = [
     },
     {
         id: 4,
-        productName: 'Smart Watch',
+        productName: 'HP Envy',
         description: 'This is Product 4',
         price: 19.99,
         quantity: 10,
@@ -44,7 +44,7 @@ export const PRODUCTS = [
     },
     {
         id: 5,
-        productName: 'Ipad Air',
+        productName: 'Portable Camera',
         description: 'This is Product 5',
         price: 19.99,
         quantity: 10,
