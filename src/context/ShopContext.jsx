@@ -10,7 +10,7 @@ const getDefaultCart = () => {
         cart[i] = 0;
     }
     return cart;
-}
+} 
 
 const ShopContextProvider = ({children}) => {
     const [cartItems, setCartItems] = useState(getDefaultCart());
@@ -20,7 +20,11 @@ const ShopContextProvider = ({children}) => {
         for (const item in cartItems) {
             if (cartItems[item] > 0) {
                 let itemInfo = PRODUCTS.find(product => product.id === Number(item));
-                totalAmount += cartItems[item] * itemInfo.price;
+                // If the item is found, calculate the total price for this product
+                if (itemInfo) {
+                    totalAmount += itemInfo.price * cartItems[item];
+                }
+                // totalAmount += cartItems[item] * itemInfo.price;
             }
         }
         return totalAmount;

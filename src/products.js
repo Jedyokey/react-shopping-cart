@@ -14,7 +14,7 @@ export const PRODUCTS = [
         id: 1,
         productName: 'Airpod Pro',
         description: 'This is Product 1',
-        price: 10.99,
+        price: 50,
         quantity: 10,
         productImage: product1
     },
@@ -22,7 +22,7 @@ export const PRODUCTS = [
         id: 2,
         productName: 'Canon Camera',
         description: 'This is Product 2',
-        price: 9.99,
+        price: 250,
         quantity: 10,
         productImage: product2
     },
@@ -30,7 +30,7 @@ export const PRODUCTS = [
         id: 3,
         productName: 'Camera',
         description: 'This is Product 3',
-        price: 19.99,
+        price: 150,
         quantity: 10,
         productImage: product3
     },
@@ -38,7 +38,7 @@ export const PRODUCTS = [
         id: 4,
         productName: 'HP Envy',
         description: 'This is Product 4',
-        price: 19.99,
+        price: 700,
         quantity: 10,
         productImage: product4
     },
@@ -46,7 +46,7 @@ export const PRODUCTS = [
         id: 5,
         productName: 'Portable Camera',
         description: 'This is Product 5',
-        price: 19.99,
+        price: 100,
         quantity: 10,
         productImage: product5
     },
@@ -54,7 +54,7 @@ export const PRODUCTS = [
         id: 6,
         productName: 'Ipad Pro',
         description: 'This is Product 6',
-        price: 19.99,
+        price: 400,
         quantity: 10,
         productImage: product6
     },
@@ -62,24 +62,24 @@ export const PRODUCTS = [
         id: 7,
         productName: 'HP Laptop',
         description: 'This is Product 7',
-        price: 19.99,
-        quantity: 10,
+        price: 300,
+        quantity: 20,
         productImage: product7
     },
     {
         id: 8,
         productName: 'Iphone 13',
         description: 'This is Product 8',
-        price: 19.99,
-        quantity: 10,
+        price: 800,
+        quantity: 30,
         productImage: product8
     },
     {
         id: 9,
         productName: 'Macbook Air',
         description: 'This is Product 9',
-        price: 19.99,
-        quantity: 10,
+        price: 1200,
+        quantity: 20,
         productImage: product9
     },
     // {
